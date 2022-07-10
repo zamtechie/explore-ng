@@ -1,0 +1,27 @@
+<h1 class="mt-4">This is Todo Page</h1>
+<button type="button" class="btn btn-success float-right" style="float: right;" (click)="createTodoClicked()">Create Post</button>
+<div class="table-responsive-md table-responsive-lg">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">UserId</th>
+        <th scope="col">Completed Status</th>
+        <th scope="col" class="col-md-2 col-lg-2">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let todo of todos$ | async">
+        <td>{{ todo.id }}</td>
+        <td>{{ todo.title }}</td>
+        <td>{{ todo.userId }}</td>
+        <td>{{ todo.completed }}</td>
+        <td>
+          <button type="button" class="btn btn-info" (click)="editClicked(todo.id!)">Edit</button> |
+          <button type="button" class="btn btn-danger" (click)="deleteClicked(todo.id!)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

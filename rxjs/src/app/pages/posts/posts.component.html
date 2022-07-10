@@ -1,0 +1,27 @@
+<h1 class="mt-4">This is Post Page</h1>
+<button type="button" class="btn btn-success float-right" style="float: right;" (click)="createPostClicked()">Create Post</button>
+<div class="table-responsive-md table-responsive-lg">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Body</th>
+        <th scope="col">UserId</th>
+        <th scope="col" class="col-md-2 col-lg-2">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of posts">
+        <td>{{ post.id }}</td>
+        <td>{{ post.title }}</td>
+        <td>{{ post.body }}</td>
+        <td>{{ post.userId }}</td>
+        <td>
+          <button type="button" class="btn btn-info" (click)="editClicked(post.id)">Edit</button> |
+          <button type="button" class="btn btn-danger" (click)="deleteClicked(post.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
