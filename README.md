@@ -4,4 +4,5 @@
 - RxJS: Subjects, Behaviour Subjects etc
 - NgRx: Understand state management using Store, Actions, Reducers and Effects
 - Micro frontend application architecture
-- Increase performance in angular application
+- Improve performance in angular application
+- Best practices in Angular
