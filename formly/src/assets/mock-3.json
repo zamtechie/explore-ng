@@ -1,0 +1,80 @@
+[
+  {
+    "key": "acc2form1",
+    "templateOptions": {
+      "label": "Acc-2 Form-1"
+    },
+    "fieldGroup": [
+      {
+        "key": "acc2form1field1",
+        "type": "input",
+        "templateOptions": {
+          "required": true,
+          "type": "text",
+          "label": "Acc-2 Form-1 Field-1"
+        }
+      },
+      {
+        "key": "acc2form1field2",
+        "type": "input",
+        "templateOptions": {
+          "required": true,
+          "type": "text",
+          "label": "Acc-2 Form-1 Field-2"
+        }
+      }
+    ]
+  },
+  {
+    "key": "acc2form2",
+    "templateOptions": {
+      "label": "Acc-2 Form-2"
+    },
+    "fieldGroup": [
+      {
+        "key": "acc2form2field1",
+        "type": "input",
+        "templateOptions": {
+          "required": true,
+          "type": "text",
+          "label": "Acc-2 Form-2 Field-1"
+        }
+      },
+      {
+        "key": "acc2form2field2",
+        "type": "input",
+        "templateOptions": {
+          "required": true,
+          "type": "text",
+          "label": "Acc-2 Form-2 Field-2"
+        }
+      }
+    ]
+  },
+  {
+    "key": "acc2form3",
+    "templateOptions": {
+      "label": "Acc-2 Form-3"
+    },
+    "fieldGroup": [
+      {
+        "key": "acc2form3field1",
+        "type": "input",
+        "templateOptions": {
+          "required": true,
+          "type": "text",
+          "label": "Acc-2 Form-3 Field-1"
+        }
+      },
+      {
+        "key": "acc2form3field2",
+        "type": "input",
+        "templateOptions": {
+          "required": true,
+          "type": "text",
+          "label": "Acc-2 Form-3 Field-2"
+        }
+      }
+    ]
+  }
+]

@@ -29,12 +29,12 @@ export class TodoComponent implements OnInit {
   }
   createTodoClicked(): void {
     let newTodo: Todo = {
-      id: 10,
       title: 'Test Title',
       completed: false,
       userId: 10
     }
     this.store.dispatch(addTodo({todo: newTodo}));
+
     console.log('In createTodoClicked');
   }
 

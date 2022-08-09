@@ -1,0 +1,174 @@
+[
+  {
+    "key": "accordian-1",
+    "templateOptions": {
+      "label": "Accordian-1"
+    },
+    "fieldGroup": [
+      {
+        "key": "acc1form1",
+        "templateOptions": {
+          "label": "Acc-1 Form-1"
+        },
+        "fieldGroup": [
+          {
+            "key": "acc1form1field1",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-1 Form-1 Field-1"
+            }
+          },
+          {
+            "key": "acc1form1field2",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-1 Form-1 Field-2"
+            }
+          }
+        ]
+      },
+      {
+        "key": "acc1form2",
+        "templateOptions": {
+          "label": "Acc-1 Form-2"
+        },
+        "fieldGroup": [
+          {
+            "key": "acc1form2field1",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-1 Form-2 Field-1"
+            }
+          },
+          {
+            "key": "acc1form2field2",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-1 Form-2 Field-2"
+            }
+          }
+        ]
+      },
+      {
+        "key": "acc1form3",
+        "templateOptions": {
+          "label": "Acc-1 Form-3"
+        },
+        "fieldGroup": [
+          {
+            "key": "acc1form3field1",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-1 Form-3 Field1"
+            }
+          },
+          {
+            "key": "acc1form3field2",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-1 Form-3 Field-2"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "accordian-2",
+    "templateOptions": {
+      "label": "Accordian-2"
+    },
+    "fieldGroup": [
+      {
+        "key": "acc2form1",
+        "templateOptions": {
+          "label": "Acc-2 Form-1"
+        },
+        "fieldGroup": [
+          {
+            "key": "acc2form1field1",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-2 Form-1 Field-1"
+            }
+          },
+          {
+            "key": "acc2form1field2",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-2 Form-1 Field-2"
+            }
+          }
+        ]
+      },
+      {
+        "key": "acc2form2",
+        "templateOptions": {
+          "label": "Acc-2 Form-2"
+        },
+        "fieldGroup": [
+          {
+            "key": "acc2form2field1",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-2 Form-2 Field-1"
+            }
+          },
+          {
+            "key": "acc2form2field2",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-2 Form-2 Field-2"
+            }
+          }
+        ]
+      },
+      {
+        "key": "acc2form3",
+        "templateOptions": {
+          "label": "Acc-2 Form-3"
+        },
+        "fieldGroup": [
+          {
+            "key": "acc2form3field1",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-2 Form-3 Field-1"
+            }
+          },
+          {
+            "key": "acc2form3field2",
+            "type": "input",
+            "templateOptions": {
+              "required": true,
+              "type": "text",
+              "label": "Acc-2 Form-3 Field-2"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

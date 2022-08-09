@@ -1,0 +1,63 @@
+<div class="row">
+  <div class="col-3">
+    <div class="accordion">
+      <ng-container *ngFor="let accordian of accordianJson; let accIndex = index; trackBy: trackByFn">
+        <div class="accordion-item" id="panelsStayOpen-headingOne">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    [attr.data-bs-target]="'#id-'+accIndex"
+                    aria-expanded="true"
+                    [attr.aria-controls]="'id-'+accIndex">
+              {{accordian.label}}
+            </button>
+          </h2>
+          <div id="id-{{accIndex}}"
+               class="accordion-collapse collapse"
+               [ngClass]="accIndex === accordianIndex ? 'show' : ''"
+               aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <ul class="list-group">
+                  <li class="list-group-item"
+                      *ngFor="let form of accordian.forms; let formIndex = index; trackBy: trackByFn"
+                      (click)="formClicked(accIndex, formIndex)">
+                      {{ form.label }}
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="col-9">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <formly-form
+        [model]="model"
+        [fields]="fields"
+        [options]="options"
+        [form]="form"
+        (modelChange)="modelChange()">
+      </formly-form>
+      <button type="button"
+              class="btn btn-secondary"
+              (click)="prevForm(accordianIndex, formIndex)">
+        Prev
+      </button>
+      |
+      <button type="button"
+              class="btn btn-secondary"
+              (click)="nextForm(accordianIndex, formIndex)">
+        Next
+      </button>
+      |
+      <button type="submit"
+              class="btn btn-primary"
+              [disabled]="!this.form.valid">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
