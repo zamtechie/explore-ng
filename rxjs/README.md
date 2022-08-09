@@ -27,5 +27,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Aim of this APP is to explore RXJS and unit testing implementation
+
+
 1. Create App with sidebar template
 2. This will be post app
+
+Completed:
+----------
+- Created app with simple API calls with observables
+- It contains the posts API integration
+
+Todo:
+-----
+- Implement Subjects and Behaviour Subjects
+
+Ref:
+----
+- https://jsonplaceholder.typicode.com/

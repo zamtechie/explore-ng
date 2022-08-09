@@ -26,6 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Aim of this APP is to explore NGRX
+
 Completed:
 ----------
 - Implemented the ngrx app
@@ -39,3 +41,4 @@ Todo:
 Ref:
 ----
 - https://www.youtube.com/watch?v=8CdBWjvKEdE&list=PL4cSPhAvl8xUOt7RrCPEwzVPs8RXWsGzg&index=1
+- https://jsonplaceholder.typicode.com/
